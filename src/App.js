@@ -9,7 +9,9 @@ const emojiDictionary = {
   "😐": "Neutral Face",
   "😵‍💫": "Face with Spiral Eyes",
   "😳": " Flushed Face",
-  "🥺": "Pleading Face"
+  "🥺": "Pleading Face",
+  "🤩": "Star-Struck",
+  "🤪": "Zany Face"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
@@ -47,7 +49,7 @@ export default function App() {
       />
       <h2> {meaning} </h2>
 
-      <h3> emojis we know </h3>
+      <h3> emojis we know:</h3>
       {emojisWeKnow.map(function (emoji) {
         return (
           <span

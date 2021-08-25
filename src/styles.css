@@ -2,3 +2,10 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  background-image: url("https://svgshare.com/i/_X9.svg");
+  background-repeat: no-repeat;
+  background-position: 30rem 15rem;
+  background-color: #5bc3eb;
+}
